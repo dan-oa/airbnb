@@ -1,1 +1,22 @@
 /* Created in case we need to overwrite Bootstrap */
+.submit {
+    background-color: #19968e;
+    border: solid #089991;
+    color: white;
+    border-radius: 2px;
+}
+.main-photo {
+    background-color: purple;
+}
+.thumbnails {
+    background-color: orange;
+}
+.house-deets {
+    background-color: aqua;
+}
+.price-booking {
+    background-color: lightcoral
+}
+.review {
+    background-color: darkorchid;
+}
