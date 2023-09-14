@@ -3,6 +3,199 @@
   <head>
     <meta charset="utf-8" />
     <title>Airbnb - House Name</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="stylesheet.css"/>
+    <script src="https://kit.fontawesome.com/f1e72de3fe.js"></script>
   </head>
-  <body></body>
+  <body>
+    <!-- header -->
+      <!-- oli's working on it -->
+    <div class="navbar h-7 mx-5">
+      <!-- Logo image -->
+      <div class="container-fluid">
+        <img class="" style="width: 90px;" src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1642399114/portal/web%20development%20beginners/05%20Project%20Airbnb/assets/logo-airbnb.png">
+        <div class="d-flex">
+          <div class="d-flex btn btn-outline-dark align-items-center mx-1">
+            <img class="rounded-circle mx-1" style="width: 25px;" src="https://randomuser.me/api/portraits/men/11.jpg">
+            <div class="">Potato Head</div>
+          </div>
+          <div class="">
+            <button type="button" class="btn btn-outline-dark">Logout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of header -->
+    <!-- house images -->
+    <div class="container">
+      <div class="row main-photo">
+        <!-- main image -->
+        <div class="col gx-0">
+          <img style="width: 100%" src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_01.png"/>
+        </div>
+        <!-- end of main image -->
+        <!-- thumbnails x9 -->
+        <div class="col thumbnails">
+          <div class="container">
+            <div class="row row-cols-3">
+              <div class="col">
+                <img style="width: 100%" src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_01.png"/>
+              </div>
+              <div class="col">
+                <img style="width: 100%" src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_01.png"/>
+              </div>
+              <div class="col">
+                <img style="width: 100%" src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_01.png"/>
+              </div>
+              <div class="col">
+                <img style="width: 100%" src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_01.png"/>
+              </div>
+              <div class="col">
+                <img style="width: 100%" src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_01.png"/>
+              </div>
+              <div class="col">
+                <img style="width: 100%" src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_01.png"/>
+              </div>
+              <div class="col">
+                <img style="width: 100%" src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_01.png"/>
+              </div>
+              <div class="col">
+                <img style="width: 100%" src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_01.png"/>
+              </div>
+              <div class="col">
+                <img style="width: 100%" src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_01.png"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of thumbnails -->
+      </div>
+    </div>
+    <!-- end of house images -->
+    <!-- text area -->
+    <div class="container">
+      <div class="row">
+        <div class="col-8">
+          <div class="container">
+            <div class="row">
+              <!-- house info -->
+              <div class="col-12">
+                <h2>House Name</h2>
+                <span><small>Location • Rooms</small></span>
+                <!-- host details -->
+                <div class="container">
+                  <div class="row">
+                    <div class="col-1">
+                      <i class="fa-solid fa-dog fa-2xl"></i>
+                    </div>
+                    <div class="col-2">
+                      <div>Host by</div>
+                      <div>Name</div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end of host details -->
+                <!-- house description -->
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quo sint, vel doloribus cupiditate facere facilis cum sequi aperiam molestiae ipsam alias ducimus numquam corrupti, animi dolores est deserunt repudiandae.</p>
+                <!-- end of house description -->
+              </div>
+              <!-- end of house info -->
+              <!-- review -->
+              <div class="col-12">
+                <h3>Reviews</h3>
+                <span>Leave a review</span>
+                <div class="form-floating">
+                  <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
+                </div>
+                <form>
+                  <button>Up</button>
+                  <button>Down</button>
+                  <div>
+                    <input class="btn btn-primary" type="submit" value="Submit">
+                  </div>
+                </form>
+              </div>
+              <!-- end of review -->
+              <!-- user reviews -->
+              <!-- <div class="col">
+                <div class="container">
+                  <div class="row">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-1">
+                              <i class="fa-solid fa-dog fa-2xl"></i>
+                            </div>
+                            <div class="col-10">
+                              <h6 class="card-subtitle mb-2 text-body-secondary">Date/Time</h6>
+                              <h5 class="card-title">Name</h5>
+                            </div>
+                            <div class="col-1">
+                              <button type="button" class="btn btn-secondary btn-sm">Up</button>
+                            </div>
+                          </div>
+                        </div>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-1">
+                              <i class="fa-solid fa-dog fa-2xl"></i>
+                            </div>
+                            <div class="col-10">
+                              <h6 class="card-subtitle mb-2 text-body-secondary">Date/Time</h6>
+                              <h5 class="card-title">Name</h5>
+                            </div>
+                            <div class="col-1">
+                              <button type="button" class="btn btn-secondary btn-sm">Up</button>
+                            </div>
+                          </div>
+                        </div>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- end of user reviews -->
+            </div>
+          </div>
+        </div>
+          <!-- booking -->
+        <div class="col-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+              <!-- unbooked -->
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Comments</label>
+              </div>
+              <button type="button" class="btn btn-primary">Request Booking</button>
+              <!-- end of unbooked -->
+              <!-- booked -->
+              <!-- <div class="border border-success p-2 mb-2 bg-success">This is default success border</div> -->
+              <!-- end of booked -->
+            </div>
+          </div>
+        </div>
+          <!-- end of booking -->
+      </div>
+    </div>
+    <!-- end of text area -->
+  </body>
 </html>
+
+<!-- https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_02.png
+
+https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295019/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_03.png
+
+https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295019/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_04.png -->
